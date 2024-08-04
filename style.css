@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+body{
+    /* font-family: "Kalnia Glaze", serif; */
+    background-color: bisque;
+
+}
+.navebar{
+    
+    
+}
+.navebar__title
+{
+    
+    justify-content: center;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: solid grey 5px;
+    font-weight: bolder;
+    align-items: center;
+}
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    
+}
+.image-container img{
+    height: 250px;
+    width: 100px;
+    flex-basis: 23%;
+    border: solid black 2px;
+     flex-grow: 1;
+}
